@@ -1,4 +1,4 @@
-# Nexora
+# Quantix
 
 > **Discover. Compare. Choose Smarter.**
 
