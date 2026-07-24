@@ -2,7 +2,7 @@
 
 > **Discover. Compare. Choose Smarter.**
 
-Nexora is a modern technology marketplace built to help students, developers, professionals, gamers, and creators discover and compare the best tech devices before making a purchase.
+Quantix is a modern technology marketplace built to help students, developers, professionals, gamers, and creators discover and compare the best tech devices before making a purchase.
 
 The project is being developed from scratch using **HTML, CSS, and JavaScript**, with a planned migration to **React** and a full-stack architecture in future versions. The long-term vision is to evolve Nexora into an intelligent shopping platform powered by an AI recommendation assistant.
 
