@@ -4,7 +4,7 @@
 
 Quantix is a modern technology marketplace built to help students, developers, professionals, gamers, and creators discover and compare the best tech devices before making a purchase.
 
-The project is being developed from scratch using **HTML, CSS, and JavaScript**, with a planned migration to **React** and a full-stack architecture in future versions. The long-term vision is to evolve Nexora into an intelligent shopping platform powered by an AI recommendation assistant.
+The project is being developed from scratch using **HTML, CSS, and JavaScript**, with a planned migration to **React** and a full-stack architecture in future versions. The long-term vision is to evolve Quantix into an intelligent shopping platform powered by an AI recommendation assistant.
 
 ---
 
@@ -12,7 +12,7 @@ The project is being developed from scratch using **HTML, CSS, and JavaScript**,
 
 Choosing a laptop or other tech device can be overwhelming due to the large number of options and complex specifications.
 
-Nexora aims to simplify this process by providing:
+Quantix aims to simplify this process by providing:
 
 * Detailed product information
 * Powerful search and filtering
@@ -93,7 +93,7 @@ Nexora aims to simplify this process by providing:
 # Project Structure
 
 ```text
-Nexora/
+Quantix/
 │
 ├── README.md
 ├── LICENSE
@@ -280,7 +280,7 @@ Nexora/
 
 # Future AI Assistant
 
-One of Nexora's core future features is an AI shopping assistant.
+One of Quantix's core future features is an AI shopping assistant.
 
 Example:
 
