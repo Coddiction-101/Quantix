@@ -2,19 +2,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--space-md) 0;
+    padding-block: 0.875rem;
+    padding-inline: 2rem;
+    background: rgba(255, 255, 255, .75);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: var(--shadow-sm);
 }
 
 .navbar__brand {
     color: var(--color-text);
-    font-family: var(--font-family);
+    text-decoration: none;
+    font-family: var(--font-ex);
     font-weight: var(--fw-bold);
     font-size: var(--fz-xl);
 }
 
 .navbar__menu {
     display: flex;
-    gap: var(--space-xl);
+    gap: 2.5rem;
     list-style-type: none;
 }
 
@@ -49,4 +57,11 @@
     text-decoration: none;
     font-size: var(--fs-base);
     font-family: var(--font-primary);
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-block: var(--space-md);
 }
