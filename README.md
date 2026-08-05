@@ -219,7 +219,9 @@ Quantix/
 
 # Development Roadmap
 
-## Phase 1 — Front-End Foundation
+> [Quantix](https://quantix-one-jet.vercel.app/)
+
+## Phase 1 — Front-End Foundation 
 
 * Responsive Layout
 * Landing Page
