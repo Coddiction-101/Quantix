@@ -1,1 +1,61 @@
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: var(--font-heading);
+     font-weight: 700;
+     line-height: 1.15;
+     letter-spacing: -0.04em;
+ }
 
+ h1 {
+     font-size: clamp(2.5rem, 6vw, 5.5rem);
+ }
+
+ h2 {
+     font-size: clamp(2rem, 4vw, 3.5rem);
+ }
+
+ h3 {
+     font-size: 1.1rem;
+ }
+
+ p {
+     color: var(--color-text-muted);
+ }
+
+ .section-eyebrow,
+ .product-brand,
+ .hero-eyebrow {
+     color: var(--color-primary);
+     font-family: var(--font-heading);
+     font-size: 0.72rem;
+     font-weight: 700;
+     letter-spacing: 0.08em;
+     text-transform: uppercase;
+ }
+
+ .section-heading {
+     display: flex;
+     align-items: end;
+     justify-content: space-between;
+     gap: 24px;
+     margin-bottom: 42px;
+ }
+
+ .section-heading h2 {
+     margin-top: 10px;
+ }
+
+ .centered-heading {
+     display: block;
+     max-width: 650px;
+     margin: 0 auto 42px;
+     text-align: center;
+ }
+
+ .centered-heading h2 {
+     margin-bottom: 14px;
+ }
