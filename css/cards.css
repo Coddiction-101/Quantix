@@ -1,1 +1,193 @@
+ .category-card,
+ .benefit-card,
+ .product-card {
+     position: relative;
+     border: 1px solid var(--color-border);
+     border-radius: var(--radius-md);
+     background-color: var(--color-surface);
+     transition: transform var(--transition-base),
+         box-shadow var(--transition-base),
+         border-color var(--transition-base);
+ }
 
+ .category-card:hover,
+ .benefit-card:hover,
+ .product-card:hover {
+     transform: translateY(-1.5px);
+     border-color: transparent;
+     box-shadow: var(--shadow-sm);
+ }
+
+.category-card {
+     padding: 26px;
+ }
+
+ .category-icon,
+ .benefit-icon {
+     display: grid;
+     width: 50px;
+     height: 50px;
+     margin-bottom: 28px;
+     place-items: center;
+     border-radius: var(--radius-sm);
+     background-color: var(--color-primary-light);
+     color: var(--color-primary);
+     font-size: 1.25rem;
+ }
+
+ .category-card h3,
+ .benefit-card h3 {
+     margin-bottom: 10px;
+ }
+
+ .category-card p,
+ .benefit-card p {
+     margin-bottom: 22px;
+     font-size: 0.93rem;
+ }
+
+ .category-card span {
+     display: inline-flex;
+     align-items: center;
+     gap: 8px;
+     font-family: var(--font-heading);
+     font-size: 0.7rem;
+     font-weight: 700;
+     transition: gap var(--transition-fast), color var(--transition-fast);
+ }
+
+ .category-card:hover span {
+     gap: 12px;
+     color: var(--color-primary);
+ }
+
+ .product-card {
+     overflow: hidden;
+ }
+
+ .product-image {
+     display: block;
+     aspect-ratio: 1 / 0.82;
+     overflow: hidden;
+     background-color: #f0efeb;
+ }
+
+ .product-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: transform var(--transition-base);
+ }
+
+ .product-card:hover .product-image img {
+     transform: scale(1.06);
+ }
+
+ .product-info {
+     padding: 20px;
+ }
+
+ .product-brand {
+     margin-bottom: 8px;
+     font-size: 0.62rem;
+ }
+
+ .product-info h3 {
+     min-height: 52px;
+     margin-bottom: 12px;
+     font-size: 0.9rem;
+ }
+
+ .product-rating {
+     display: flex;
+     align-items: center;
+     gap: 7px;
+     margin-bottom: 16px;
+     color: var(--color-text-muted);
+     font-family: var(--font-utility);
+     font-size: 0.75rem;
+ }
+
+ .stars {
+     color: var(--color-star);
+     font-size: 0.68rem;
+ }
+
+ .product-price {
+     display: flex;
+     align-items: baseline;
+     flex-wrap: wrap;
+     gap: 8px;
+     margin-bottom: 18px;
+     font-family: var(--font-heading);
+ }
+
+ .current-price {
+     font-size: 0.95rem;
+     font-weight: 700;
+ }
+
+ .original-price {
+     color: var(--color-text-muted);
+     font-size: 0.72rem;
+     text-decoration: line-through;
+ }
+
+ .product-card .btn {
+     width: 100%;
+     min-height: 42px;
+     padding: 10px 14px;
+     font-size: 0.65rem;
+ }
+
+ .product-badge {
+     position: absolute;
+     top: 14px;
+     left: 14px;
+     z-index: 1;
+     padding: 6px 9px;
+     border-radius: var(--radius-pill);
+     background-color: var(--color-accent);
+     color: var(--color-white);
+     font-family: var(--font-heading);
+     font-size: 0.58rem;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+
+ .wishlist-btn {
+     position: absolute;
+     top: 12px;
+     right: 12px;
+     z-index: 1;
+     display: grid;
+     width: 36px;
+     height: 36px;
+     place-items: center;
+     border-radius: 50%;
+     background-color: var(--color-white);
+     color: var(--color-text);
+     box-shadow: var(--shadow-sm);
+     transition: color var(--transition-fast),
+         transform var(--transition-fast);
+ }
+
+ .wishlist-btn:hover {
+     color: var(--color-danger);
+     transform: scale(1.08);
+ }
+
+
+ .benefit-card {
+     padding: 34px 30px;
+ }
+
+ .benefit-card:nth-child(2) .benefit-icon {
+     background-color: var(--color-accent-light);
+     color: var(--color-accent);
+ }
+
+ .benefit-card:nth-child(3) .benefit-icon {
+     background-color: #fff6df;
+     color: #c78318;
+ }
